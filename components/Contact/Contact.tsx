@@ -1,8 +1,25 @@
+"use client";
+
+import { useState, FormEvent } from 'react';
 import styles from './Contact.module.css';
 import { portfolioData } from '@/data/portfolioData';
 
 export default function Contact() {
   const { contact } = portfolioData;
+  const [status, setStatus] = useState<"idle" | "submitting" | "success">("idle");
+
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setStatus("submitting");
+    // Simulate network request
+    setTimeout(() => {
+      setStatus("success");
+      (e.target as HTMLFormElement).reset();
+      
+      // Reset success message after 3 seconds
+      setTimeout(() => setStatus("idle"), 3000);
+    }, 1000);
+  };
 
   return (
     <section id="contact" className={`section ${styles.contactSection}`}>
@@ -16,7 +33,7 @@ export default function Contact() {
 
         <div className={styles.content}>
           <div className={styles.formWrapper}>
-            <form className={styles.form}>
+            <form className={styles.form} onSubmit={handleSubmit}>
               <div className={styles.inputGroup}>
                 <label htmlFor="name" className={styles.label}>Name</label>
                 <input type="text" id="name" className={styles.input} placeholder="Enter your name" required />
@@ -29,7 +46,15 @@ export default function Contact() {
                 <label htmlFor="message" className={styles.label}>Message</label>
                 <textarea id="message" rows={5} className={styles.textarea} placeholder="Enter your message" required></textarea>
               </div>
-              <button type="submit" className={styles.submitBtn}>Send Transmission</button>
+              <button 
+                type="submit" 
+                className={styles.submitBtn} 
+                disabled={status === "submitting" || status === "success"}
+              >
+                {status === "idle" && "Send Transmission"}
+                {status === "submitting" && "Sending..."}
+                {status === "success" && "Transmission Sent ✓"}
+              </button>
             </form>
           </div>
           

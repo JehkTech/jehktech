@@ -16,7 +16,7 @@ export default function Hero() {
           <h2 className={styles.subtitle}>{hero.subtitle}</h2>
           <p className={styles.description}>{hero.description}</p>
           <div className={styles.ctaGroup}>
-            <a href="#projects" className={styles.primaryBtn}>{hero.cta1}</a>
+            <a href="#about" className={styles.primaryBtn}>{hero.cta1}</a>
             <a href="#contact" className={styles.secondaryBtn}>{hero.cta2}</a>
           </div>
         </div>
