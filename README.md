@@ -206,12 +206,12 @@ Deploy to Vercel in three steps:
 ```markdown
 ## Who I Am
 
-[Your name]. [Location].
+Jehoiachin Katemangwe (Jeh). Lusaka, Zambia.
 
-[One sentence: what you build and for whom.]
-[One sentence: what makes your approach distinct.]
+Building cashless payment systems, QA automation pipelines, and SaaS products for fintech and logistics platforms across Southern Africa.
+Three years in production fintech — simultaneously running a systematic prop trading operation and an AI automation agency.
 
-No fluff. Results speak.
+No degree. No apologies. Production experience speaks.
 
 ---
 
@@ -219,33 +219,68 @@ No fluff. Results speak.
 
 | Platform | Link |
 |---|---|
-| GitHub   | [github.com/yourusername](https://github.com/yourusername) |
-| LinkedIn | [linkedin.com/in/yourhandle](https://linkedin.com/in/yourhandle) |
-| Email    | your@email.com |
-| Portfolio | [yoursite.com](https://yoursite.com) |
+| GitHub   | [github.com/JehkTech](https://github.com/JehkTech) |
+| LinkedIn | [linkedin.com/in/jkatemangwe](https://linkedin.com/in/jkatemangwe) |
+| Email    | jehoiachinkatemangwe1@gmail.com |
+| Phone    | (+260) 970-435-346 |
+| Research | [Academia.edu](https://www.academia.edu) · [Zenodo](https://zenodo.org) |
+| Freelance | [Contra](https://contra.com) |
+| Company  | [F6S — JehKTech](https://www.f6s.com/jehktech) |
 
 ---
 
 ## Experience
 
-### [Role] — [Company]
-*[Industry] · [Location] · [Duration]*
+### UI/UX Designer & QA Automation Engineer — Mount Meru / Mamastops
+*Cashless Logistics Platform · Lusaka, Zambia · 3 Years*
 
-- [Integration or system you shipped — be specific]
-- [Integration or system you shipped — be specific]
-- [What you owned end-to-end]
+- Shipped E-Toll integrations across BookNow and NRFA payment gateway flows
+- Integrated Airtel Money V2, M-Pesa Mozambique, and TFN Payments for cross-border mobile money disbursement and collection
+- Implemented WhatsApp OTP two-factor authentication via WhatsApp Business API
+- Owned end-to-end: wireframing → UI implementation → QA automation scripting → regression testing → integration validation
 
 ---
 
 ## Projects
 
-### [Project Name]
-> [One-line description]
+### StatusHub
+> Webhook management & status monitoring SaaS
 
-[2–3 sentences: what it does, who it's for, what problem it solves.]
+Real-time infrastructure visibility for developers and ops teams. SSE-based live updates, webhook event routing, and multi-tenant status page system built on a production-grade stack.
 
-**Stack:** [List your actual stack]  
-**Status:** [In progress / Live / Archived]
+**Stack:** Next.js 14 · Express · Prisma · PostgreSQL · Firebase Auth · Upstash Redis · SSE · Tailwind CSS v4  
+**Status:** Active development — backend hardened, StatusPage CRUD + global search wiring in progress
+
+---
+
+### OnboardAI
+> AI-powered client onboarding dashboard
+
+Intelligent onboarding flow management for SaaS businesses. Full backend spec complete — PostgreSQL/Prisma schema, REST API, WebSocket catalog, RBAC matrix, BullMQ async job architecture.
+
+**Stack:** React · Vite · Node.js · PostgreSQL · Prisma · BullMQ · Socket.io · Resend  
+**Status:** 4-week MVP sprint in execution — auth → core data → AI reports → hardening
+
+---
+
+### Luminous Pixels Agency
+> AI automation agency targeting US-based clients
+
+AI Receptionist solutions, workflow automation pipelines, and web presence for businesses replacing manual processes with intelligent systems.
+
+**Stack:** React · Vite · Node.js · Africa's Talking · Flutterwave · Calendly · PayPal · Whop · Sellix  
+**Status:** Live — production Vite/React site deployed
+
+---
+
+### KTMNGW — Systematic Trading Operation
+> Precision Under Pressure
+
+Systematic prop trading under the R0TK framework — HTF structure identification, ITF liquidity mapping, LTF MSS/FVG entry confirmation. MT5 copier architecture scaling across multiple funded accounts. DOI-registered Zenodo research paper published 2026.
+
+**Instruments:** NQ · ES · YM · XAU · XAG · BTC · GBPJPY  
+**Prop Firms:** GoatFunded · Topstep · Tradeify · Alpha Futures  
+**Status:** Live — active funded accounts
 
 ---
 
@@ -253,24 +288,28 @@ No fluff. Results speak.
 
 | Layer | Tools |
 |---|---|
-| Frontend | [frameworks, libraries] |
-| Backend  | [runtime, frameworks, DBs] |
-| Infra    | [cloud, deployment, storage] |
-| Design   | [tools] |
+| Frontend | Next.js 14 · React · Vite · TypeScript · Tailwind CSS v4 · React Router v7 · CSS Modules |
+| Backend  | Node.js · Express · Prisma · PostgreSQL · BullMQ · Socket.io · SSE |
+| Infra    | Firebase Auth · Upstash Redis · Cloudflare R2 · AWS · Vercel · Netlify |
+| Payments | Flutterwave · PayPal · Whop · Sellix · Africa's Talking |
+| Trading  | MetaTrader 5 · Python MT5 SDK · Prop Firm Copier Architecture |
+| Design   | SVG · Node.js Sharp · ReportLab (Python) · python-docx |
+| Comms    | Resend · WhatsApp Business API · Africa's Talking |
 
 ---
 
 ## This Repo
 
-[What this specific repo is. One sentence.]
+Production-grade personal portfolio built on Next.js 14 with TypeScript, CSS Modules, and Vercel deployment — dark minimalist design reflecting the JehKTech brand identity.
 
 ### Architecture
 
 ​```
 /
-├── [directory]/     # [what it contains]
-├── [directory]/     # [what it contains]
-└── [directory]/     # [what it contains]
+├── app/                # Next.js App Router root (layout, globals, page)
+├── components/         # Section components — About, Contact, Hero, Projects
+├── data/               # portfolioData.ts — strongly-typed content layer
+└── public/             # Static assets
 ​```
 
 ---
@@ -278,11 +317,11 @@ No fluff. Results speak.
 ## Getting Started
 
 ​```bash
-[install command]
-[run command]
+npm install
+npm run dev
 ​```
 
-[Where to open it. What to expect.]
+Open [http://localhost:3000](http://localhost:3000). Hot reloads on save. All site content lives in `@/data/portfolioData.ts`.
 ```
 
 > **Clock rules:** Fill every slot before publishing. A blank slot is worse than no slot.  
