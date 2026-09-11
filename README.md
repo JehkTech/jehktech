@@ -1,77 +1,294 @@
-# JehkTech Personal Portfolio
+# JehkTech — Jehoiachin Katemangwe
 
-A modern, sleek, and high-performance personal portfolio for Jehoiachin Katemangwe. This project showcases his multifaceted identity: Trader, UI Designer, Software Engineer, QA Tester, Visionary, and Mentalist.
+> **UI/UX Designer · QA Automation Engineer · Systematic Trader · SaaS Builder**  
+> Building at the intersection of fintech, intelligent systems, and precision execution.
 
-## 🚀 Tech Stack
+---
 
-- **Framework**: [Next.js](https://nextjs.org/) (React)
-- **Routing**: Next.js App Router (`app/` directory)
-- **Language**: [TypeScript](https://www.typescriptlang.org/) for strict type safety
-- **Styling**: Vanilla CSS Modules for locally scoped, lightweight styling
-- **Deployment**: [Vercel](https://vercel.com/) (Recommended)
+## Who I Am
 
-## 📁 Architecture & Structure
+I'm Jehoiachin Katemangwe (Jeh) — based in Lusaka, Zambia.
 
-This project strictly adheres to production-grade Next.js best practices:
+Three years in production fintech building cashless payment systems, QA automation pipelines, and real-time integrations for platforms used across Southern Africa. Simultaneously building SaaS products, running a systematic prop trading operation, and scaling an AI automation agency.
+
+I operate under the umbrella identity **JehKTech** — and under the trading/content brand **KTMNGW** (*Precision Under Pressure*).
+
+No degree. No apologies. Production experience speaks.
+
+---
+
+## 🔗 Connect
+
+| Platform | Link |
+|---|---|
+| GitHub | [github.com/JehkTech](https://github.com/JehkTech) |
+| LinkedIn | [linkedin.com/in/jkatemangwe](https://linkedin.com/in/jkatemangwe) |
+| Research | [Academia.edu](https://www.academia.edu) · [Zenodo DOI](https://zenodo.org) |
+| Freelance | [Contra](https://contra.com) |
+| Company | [F6S — JehKTech](https://www.f6s.com/jehktech) |
+| Email | jehoiachinkatemangwe1@gmail.com |
+| Phone | (+260) 970-435-346 |
+
+---
+
+## 🏢 Professional Experience
+
+### UI/UX Designer & QA Automation Engineer — Mount Meru / Mamastops
+*Cashless Logistics Platform · Lusaka, Zambia · 3 Years*
+
+Production fintech work across multiple live payment integrations:
+
+- **E-Toll Integration** — BookNow & NRFA payment gateway flows
+- **Airtel Money V2** — Mobile money disbursement and collection API
+- **M-Pesa Mozambique** — Cross-border mobile payment integration
+- **WhatsApp OTP** — Two-factor authentication via WhatsApp Business API
+- **TFN Payments** — Transaction flow and reconciliation pipelines
+
+Responsibilities span end-to-end: wireframing, prototyping, UI implementation, QA automation scripting, regression testing, and integration validation.
+
+---
+
+## 🛠️ Projects
+
+### StatusHub
+> Webhook management & status monitoring SaaS
+
+Real-time infrastructure visibility for developers and ops teams. Built on a production-grade stack with SSE-based live updates, webhook event routing, and a multi-tenant status page system.
+
+**Stack:** Next.js 14 · Express · Prisma · PostgreSQL · Firebase Auth · Upstash Redis · SSE · Tailwind CSS v4  
+**Status:** Active development — backend hardened (P0/P1 resolved), StatusPage CRUD + global search wiring in progress
+
+---
+
+### OnboardAI
+> AI-powered client onboarding dashboard
+
+Intelligent onboarding flow management for SaaS businesses. Full backend spec complete — PostgreSQL/Prisma schema, REST API inventory, WebSocket catalog, RBAC matrix, BullMQ async job architecture.
+
+**Stack:** React · Vite · Node.js · PostgreSQL · Prisma · BullMQ · Socket.io · Resend  
+**Status:** 4-week MVP sprint in execution — auth → core data → AI reports → hardening
+
+---
+
+### Luminous Pixels Agency
+> AI automation agency targeting US-based clients
+
+Builds AI Receptionist solutions, workflow automation pipelines, and web presence for businesses replacing manual processes with intelligent systems. Production Vite/React site live.
+
+**Services:** AI Receptionist · Document Processing Automation · Website Builds · Lead Intelligence  
+**Stack:** React · Vite · Node.js · Africa's Talking · Flutterwave · Calendly  
+**Payment Infra:** PayPal · Whop · Sellix (crypto) · Flutterwave (mobile money)
+
+---
+
+### KTMNGW — Systematic Trading & Content Brand
+> Precision Under Pressure
+
+Systematic prop trading operation under the **R0TK framework** — a structured SMC approach covering HTF structure identification, ITF liquidity mapping, and LTF MSS/FVG entry confirmation.
+
+- **Instruments:** NQ · ES · YM · XAU · XAG · BTC (NY AM/PM) · GBPJPY (Asian/London)
+- **Prop Firms:** GoatFunded · Topstep · Tradeify · Alpha Futures
+- **Scaling Mechanism:** MT5 copier architecture across multiple funded accounts
+- **Published Research:** DOI-registered Zenodo paper — *Midnight Opening Gap (MNOG)* microstructure study (2026)
+
+---
+
+## 🔬 Research
+
+**Midnight Opening Gap (MNOG) — Trading Microstructure Study**  
+Published: Zenodo · DOI-registered · 2026  
+Profiles: [Academia.edu](https://www.academia.edu) · [Zenodo](https://zenodo.org)
+
+---
+
+## 🧰 Full Tech Stack
+
+| Layer | Tools |
+|---|---|
+| **Frontend** | Next.js 14 · React · Vite · TypeScript · Tailwind CSS v4 · React Router v7 · CSS Modules |
+| **Backend** | Node.js · Express · Prisma · PostgreSQL · BullMQ · Socket.io · SSE |
+| **Auth & Infra** | Firebase Auth · Upstash Redis · Cloudflare R2 · AWS · Vercel · Netlify |
+| **Payments** | Flutterwave · PayPal · Whop · Sellix · Africa's Talking (SMS/OTP) |
+| **Trading** | MetaTrader 5 · Python MT5 SDK · Prop Firm Copier Architecture |
+| **Design** | SVG · Node.js Sharp · ReportLab (Python) · python-docx |
+| **Comms** | Resend · WhatsApp Business API · Africa's Talking |
+
+---
+
+## 📁 This Repository — Portfolio Site
+
+A production-grade personal portfolio built on Next.js 14 with TypeScript, CSS Modules, and Vercel deployment. Dark minimalist design reflecting the JehKTech brand identity.
+
+### Architecture
 
 ```
 /
-├── app/                  # Next.js App Router root
-│   ├── globals.css       # Global CSS variables, resets, typography
-│   ├── layout.tsx        # Root layout (Navbar, Footer, Meta tags)
-│   └── page.tsx          # Main landing page
-├── components/           # Reusable UI components
-│   ├── About/            # About section component
-│   ├── Contact/          # Contact section component
-│   └── Hero/             # Hero section component
-├── data/                 # Static data layer
-│   └── portfolioData.ts  # Strongly-typed data driving the site content
-└── public/               # Static assets (images, icons, etc.)
+├── app/                        # Next.js App Router root
+│   ├── globals.css             # CSS variables, resets, typography
+│   ├── layout.tsx              # Root layout (Navbar, Footer, Meta)
+│   └── page.tsx                # Main landing page
+├── components/
+│   ├── About/                  # About section
+│   ├── Contact/                # Contact section
+│   ├── Hero/                   # Hero section
+│   └── Projects/               # Projects showcase
+├── data/
+│   └── portfolioData.ts        # Strongly-typed content layer
+└── public/                     # Static assets
 ```
 
 ### Key Technical Decisions
-- **TypeScript First**: Data layer (`data/portfolioData.ts`) and components are strictly typed to ensure robust refactoring and error prevention.
-- **Path Aliasing**: Imports utilize the `@/` alias (e.g., `import Hero from '@/components/Hero/Hero'`) to maintain clean and scalable dependency paths.
-- **CSS Modules**: Native CSS modules are used (e.g., `Hero.module.css`) to prevent global namespace collisions while remaining lightweight without third-party styling overhead.
-- **Server Components (RSC)**: The Next.js App Router defaults to React Server Components to optimize payload sizes and Core Web Vitals.
+
+- **TypeScript First** — Data layer and components fully typed for robust refactoring
+- **Path Aliasing** — `@/` alias throughout for clean imports
+- **CSS Modules** — Scoped styles, zero global namespace pollution
+- **React Server Components** — App Router defaults to RSC for optimal Core Web Vitals
+
+---
 
 ## 💻 Getting Started
 
-First, ensure you have Node.js installed, then install dependencies:
-
 ```bash
 npm install
-```
-
-Run the development server:
-
-```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. The application will auto-update as you modify the files.
+Open [http://localhost:3000](http://localhost:3000). Hot reloads on save.
 
-## 🛠️ Development Guide
+---
 
-### Updating Content
-All primary site content is centralized in `@/data/portfolioData.ts`. This allows you to easily update the text, roles, and links without touching the component markup. 
+## 🛠️ Content Guide
 
-### Adding New Components
-1. Create a new directory in `components/` (e.g., `components/Projects/`).
-2. Add a `.tsx` file for the component markup (`Projects.tsx`).
-3. Add a `.module.css` file for scoped styles (`Projects.module.css`).
-4. Import into `app/page.tsx` using the `@/components/...` alias.
+### Update site content
+All content lives in `@/data/portfolioData.ts` — edit roles, projects, links there without touching markup.
 
-## 📚 Documentation
-- **Product Requirements**: See `.orchestrator/PRD.md` for the core product vision and design decisions.
-- **AI Agent Guidelines**: See `AGENTS.md` and `CLAUDE.md` for AI assistant guardrails and project context.
+### Add a new section
+```bash
+# 1. Create component directory
+mkdir components/NewSection
+
+# 2. Add component + styles
+touch components/NewSection/NewSection.tsx
+touch components/NewSection/NewSection.module.css
+
+# 3. Import in app/page.tsx
+import NewSection from '@/components/NewSection/NewSection'
+```
+
+---
 
 ## 🚀 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new).
+Deploy to Vercel in three steps:
 
-1. Push your code to a GitHub/GitLab repository.
-2. Import the project in Vercel.
-3. Vercel will automatically detect the Next.js framework and handle the build/deploy process.
+1. Push to GitHub
+2. Import project at [vercel.com/new](https://vercel.com/new)
+3. Vercel auto-detects Next.js — build and deploy
 
-For more details, check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
+---
+
+## 📚 Internal Docs
+
+| File | Purpose |
+|---|---|
+| `.orchestrator/PRD.md` | Product requirements & design decisions |
+| `AGENTS.md` | AI assistant guardrails |
+| `CLAUDE.md` | Claude-specific project context |
+
+---
+
+---
+
+# 🕐 Content Clock — Template for Other Builders
+
+> Copy this section into your own portfolio README. Fill each slot. This is your positioning, not a biography.
+
+```markdown
+## Who I Am
+
+[Your name]. [Location].
+
+[One sentence: what you build and for whom.]
+[One sentence: what makes your approach distinct.]
+
+No fluff. Results speak.
+
+---
+
+## Connect
+
+| Platform | Link |
+|---|---|
+| GitHub   | [github.com/yourusername](https://github.com/yourusername) |
+| LinkedIn | [linkedin.com/in/yourhandle](https://linkedin.com/in/yourhandle) |
+| Email    | your@email.com |
+| Portfolio | [yoursite.com](https://yoursite.com) |
+
+---
+
+## Experience
+
+### [Role] — [Company]
+*[Industry] · [Location] · [Duration]*
+
+- [Integration or system you shipped — be specific]
+- [Integration or system you shipped — be specific]
+- [What you owned end-to-end]
+
+---
+
+## Projects
+
+### [Project Name]
+> [One-line description]
+
+[2–3 sentences: what it does, who it's for, what problem it solves.]
+
+**Stack:** [List your actual stack]  
+**Status:** [In progress / Live / Archived]
+
+---
+
+## Stack
+
+| Layer | Tools |
+|---|---|
+| Frontend | [frameworks, libraries] |
+| Backend  | [runtime, frameworks, DBs] |
+| Infra    | [cloud, deployment, storage] |
+| Design   | [tools] |
+
+---
+
+## This Repo
+
+[What this specific repo is. One sentence.]
+
+### Architecture
+
+​```
+/
+├── [directory]/     # [what it contains]
+├── [directory]/     # [what it contains]
+└── [directory]/     # [what it contains]
+​```
+
+---
+
+## Getting Started
+
+​```bash
+[install command]
+[run command]
+​```
+
+[Where to open it. What to expect.]
+```
+
+> **Clock rules:** Fill every slot before publishing. A blank slot is worse than no slot.  
+> Delete any section that doesn't apply to your work. Don't pad.  
+> Update the Status field on every project whenever it changes.
+
+---
+
+*Built by [Jehoiachin Katemangwe](https://github.com/JehkTech) — JehKTech · KTMNGW*
