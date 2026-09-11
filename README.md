@@ -24,6 +24,26 @@ No degree. No apologies. Production experience speaks.
 
 ---
 
+## 📈 KTMNGW — Precision Under Pressure
+
+Trading is a serious part of what I build. Under **KTMNGW**, I study and execute a systematic approach to market structure, liquidity, and confirmation-based entries across selected futures, metals, crypto, and FX markets.
+
+The **R0TK framework** moves from higher-timeframe structure identification, through intermediate-timeframe liquidity mapping, to lower-timeframe market structure shift and fair value gap confirmation. The emphasis is process, documentation, and precision under pressure.
+
+| Trading System | Details |
+|---|---|
+| Framework | R0TK systematic SMC approach |
+| Execution model | HTF structure → ITF liquidity → LTF MSS/FVG confirmation |
+| Instruments | NQ · ES · YM · XAU · XAG · BTC · GBPJPY |
+| Sessions | NY AM/PM for BTC · Asian/London for GBPJPY |
+| Prop-firm ecosystem | GoatFunded · AlphaCapital · FundedNext · Alpha Futures · Topstep |
+| Infrastructure | MetaTrader 5 copier architecture across funded accounts |
+| Research | *Midnight Opening Gap (MNOG)* microstructure study, published on Zenodo in 2026 |
+
+**Trading links:** [Instagram @\_jeh.k](https://instagram.com/_jeh.k) · [Reddit u/JehKTech](https://reddit.com/u/JehKTech) · [Research on Zenodo](https://zenodo.org)
+
+---
+
 ## 🔗 Connect
 
 <!-- LinkedIn account suspended: https://linkedin.com/in/jkatemangwe -->
@@ -58,7 +78,7 @@ Responsibilities span end-to-end: wireframing, prototyping, UI implementation, Q
 
 ---
 
-## 🛠️ Projects
+## 🛠️ Building
 
 ### StatusHub (formerly Syscheck)
 > Webhook management & status monitoring SaaS
@@ -88,18 +108,6 @@ Builds AI Receptionist solutions, workflow automation pipelines, and web presenc
 **Services:** AI Receptionist · Document Processing Automation · Website Builds · Lead Intelligence  
 **Stack:** React · Vite · Node.js · Africa's Talking · Flutterwave · Calendly  
 **Payment Infra:** PayPal · Whop · Sellix (crypto) · Flutterwave (mobile money)
-
----
-
-### KTMNGW — Systematic Trading & Content Brand
-> Precision Under Pressure
-
-Systematic prop trading operation under the **R0TK framework** — a structured SMC approach covering HTF structure identification, ITF liquidity mapping, and LTF MSS/FVG entry confirmation.
-
-- **Instruments:** NQ · ES · YM · XAU · XAG · BTC (NY AM/PM) · GBPJPY (Asian/London)
-- **Prop Firms:** GoatFunded · Topstep · Tradeify · Alpha Futures
-- **Scaling Mechanism:** MT5 copier architecture across multiple funded accounts
-- **Published Research:** DOI-registered Zenodo paper — *Midnight Opening Gap (MNOG)* microstructure study (2026)
 
 ---
 
