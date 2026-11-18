@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 
 const vertex = "attribute vec2 p; void main(){gl_Position=vec4(p,0.,1.);}";
-const fragment = "precision mediump float; uniform vec2 r,m; uniform float t; float n(vec2 p){return sin(p.x)*sin(p.y);} void main(){vec2 u=gl_FragCoord.xy/r,q=u-.5;q.x*=r.x/r.y;vec2 x=m-.5;x.x*=r.x/r.y;float d=length(q-x);float k=smoothstep(.55+n(q*9.+t*.12)*.08,.06,d+sin(t*.8+q.x*8.)*.06);vec3 b=vec3(.025,.028,.04),a=mix(vec3(.12,.2,.95),vec3(.10,.92,.98),u.y+sin(t*.35+u.x*7.)*.17);gl_FragColor=vec4(mix(b,a,k),1.);}";
+const fragment = "precision mediump float; uniform vec2 r,m; uniform float t; float n(vec2 p){return sin(p.x)*sin(p.y);} void main(){vec2 u=gl_FragCoord.xy/r,q=u-.5;q.x*=r.x/r.y;vec2 x=m-.5;x.x*=r.x/r.y;float d=length(q-x);float k=smoothstep(.55+n(q*9.+t*.12)*.08,.06,d+sin(t*.8+q.x*8.)*.06);vec3 b=vec3(.07,.06,.10),a=mix(vec3(.98,.28,.20),vec3(.48,.30,.95),u.y+sin(t*.35+u.x*7.)*.17);gl_FragColor=vec4(mix(b,a,k),1.);}";
 
 export default function InkCanvas() {
   const ref = useRef<HTMLCanvasElement>(null);
