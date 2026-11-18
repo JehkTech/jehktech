@@ -4,7 +4,7 @@
 - **Entry points:** `app/layout.tsx`, `app/page.tsx`; no router beyond the landing page.
 - **Existing identity:** near-black, cyan, technical labels, grid/orb hero. This is retained as the starting identity.
 - **Verified content:** Jehoiachin Katemangwe / JehKTech; software engineering, UI design, QA testing, trading, mentalism; roles and full about copy are in `data/portfolioData.ts`.
-- **Verified work:** Mount Meru / Mamastops experience plus StatusHub, OnboardAI and Luminous Pixels as described in the existing README. No live project links or case-study assets were present.
+- **Verified work:** Mount Meru / Mamastops experience plus the linked systems and client projects in `data/projects.ts`. DeFi and Lightning projects are intentionally not included.
 - **Contact:** `jehoiachinkatemangwe1@gmail.com`, GitHub and LinkedIn entries in the existing data. The former form simulated success only.
 - **SEO/deploy:** metadata was Create Next App default; no sitemap, robots, JSON-LD, analytics or Netlify config was present. The brief identifies Netlify as the deployment.
 

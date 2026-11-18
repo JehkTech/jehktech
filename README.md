@@ -20,7 +20,7 @@ npm run build
 ## Content
 
 - Update biography, roles, contact information and social links in `data/portfolioData.ts`.
-- Add verified portfolio work in `data/projects.ts`. Do not add a case-study URL until it exists.
+- Add verified portfolio work, including its live destination, in `data/projects.ts`. Keep projects that are not ready to share out of the list.
 - The hero shader is self-contained in `components/InkCanvas.tsx`. Its `fragment` source controls the colour field and ink radius.
 - Core visual tokens are in `styles/tokens.css`; global layout styles are in `app/globals.css`.
 
