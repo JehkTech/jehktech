@@ -57,7 +57,6 @@ The **R0TK framework** moves from higher-timeframe structure identification, thr
 | Freelance | [Contra](https://contra.com) |
 | Company | [F6S — JehKTech](https://www.f6s.com/jehktech) |
 | Email | jehoiachinkatemangwe1@gmail.com |
-| Phone | (+260) 970-435-346 |
 
 ---
 
