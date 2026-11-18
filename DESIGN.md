@@ -8,8 +8,8 @@ Upgrade **two separate portfolio repos**, each with its own design, content and 
 
 | Project | Path | Notes |
 |---|---|---|
-| **A — JehKTech (live)** | `D:\_jeh\WebApps\jehktech` | Deployed at https://jehktech.netlify.app/ (Netlify). Client-rendered app. |
-| **B — Developer Portfolio Design** | `D:\_jeh\WebApps\Developer-Portfolio-Design` | Figma Make export (`npm i`, `npm run dev`). Source design: https://www.figma.com/design/mQZ40W5qyLEKSzvho4ZDp7/Developer-Portfolio-Design |
+| **A — JehKTech (live)** | `D:\_jeh\WebApps\jehktech` | Not Deployed
+| **B — Developer Portfolio Design** | `D:\_jeh\WebApps\Developer-Portfolio-Design` | Figma Make export (`npm i`, `npm run dev`). Source design: https://www.figma.com/design/mQZ40W5qyLEKSzvho4ZDp7/Developer-Portfolio-Design | Deployed at https://jehktech.netlify.app/ (Netlify). Client-rendered app.
 
 They are **different repos with different designs**. Do not assume they share code, content or structure. Do not copy A's content into B or vice versa.
 
