@@ -174,6 +174,18 @@ Open [http://localhost:3000](http://localhost:3000). Hot reloads on save.
 
 ---
 
+## 📄 PDF Portfolio
+
+A printable A4 portfolio lives as a **Portfolio** tab inside `D:\Extra\Other\JehkTech\index.html`. On screen the document is dark; print/export always forces white pages via `@media print`.
+
+```bash
+npm run pdf
+```
+
+Regenerates `public/JehKTech-Portfolio.pdf` and `D:\Extra\Other\JehkTech\JehKTech-Portfolio.pdf` with headless Chrome. Override paths with `PORTFOLIO_HTML` / `PORTFOLIO_PDF_OUT`, or the browser with `CHROME_PATH`. Opening the HTML with `?pdf=1` forces the portfolio view for export.
+
+---
+
 ## 🛠️ Content Guide
 
 ### Update site content
