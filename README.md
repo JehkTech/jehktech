@@ -182,7 +182,7 @@ A printable A4 portfolio lives as a **Portfolio** tab inside `D:\Extra\Other\Jeh
 npm run pdf
 ```
 
-Regenerates `public/JehKTech-Portfolio.pdf` and `D:\Extra\Other\JehkTech\JehKTech-Portfolio.pdf` with headless Chrome. Override paths with `PORTFOLIO_HTML` / `PORTFOLIO_PDF_OUT`, or the browser with `CHROME_PATH`. Opening the HTML with `?pdf=1` forces the portfolio view for export.
+Regenerates `public/JehKTech-Portfolio.pdf` and `D:\Extra\Other\JehkTech\JehKTech-Portfolio.pdf` with headless Chrome, and rewrites `portfolio-pdf-data.js` (embedded base64 copy) so the page’s **Download PDF** button works even if the loose `.pdf` is deleted. Override paths with `PORTFOLIO_HTML` / `PORTFOLIO_PDF_OUT`, or the browser with `CHROME_PATH`. Opening the HTML with `?pdf=1` forces the portfolio view for export.
 
 ---
 
