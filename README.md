@@ -57,7 +57,6 @@ The **R0TK framework** moves from higher-timeframe structure identification, thr
 | Freelance | [Contra](https://contra.com) |
 | Company | [F6S — JehKTech](https://www.f6s.com/jehktech) |
 | Email | jehoiachinkatemangwe1@gmail.com |
-| Phone | (+260) 970-435-346 |
 
 ---
 
@@ -172,6 +171,18 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000). Hot reloads on save.
+
+---
+
+## 📄 PDF Portfolio
+
+A printable A4 portfolio lives as a **Portfolio** tab inside `D:\Extra\Other\JehkTech\index.html`. On screen the document is dark; print/export always forces white pages via `@media print`.
+
+```bash
+npm run pdf
+```
+
+Regenerates `public/JehKTech-Portfolio.pdf` and `D:\Extra\Other\JehkTech\JehKTech-Portfolio.pdf` with headless Chrome, and rewrites `portfolio-pdf-data.js` (embedded base64 copy) so the page’s **Download PDF** button works even if the loose `.pdf` is deleted. Override paths with `PORTFOLIO_HTML` / `PORTFOLIO_PDF_OUT`, or the browser with `CHROME_PATH`. Opening the HTML with `?pdf=1` forces the portfolio view for export.
 
 ---
 

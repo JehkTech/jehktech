@@ -1,13 +1,11 @@
-import Hero from '@/components/Hero/Hero';
-import About from '@/components/About/About';
-import Contact from '@/components/Contact/Contact';
+import type { Metadata } from "next";
+import Portfolio from "@/components/Portfolio";
 
-export default function Home() {
-  return (
-    <main>
-      <Hero />
-      <About />
-      <Contact />
-    </main>
-  );
-}
+export const metadata: Metadata = {
+  title: "JehKTech — Systems, Design & Precision",
+  description: "The portfolio of Jehoiachin Katemangwe: software engineering, product design, quality assurance and systematic trading.",
+  alternates: { canonical: "https://jehktech.netlify.app/" },
+  openGraph: { title: "JehKTech — Systems, Design & Precision", description: "Portfolio of Jehoiachin Katemangwe.", url: "https://jehktech.netlify.app/", siteName: "JehKTech", type: "website" },
+};
+
+export default function Home() { return <Portfolio />; }

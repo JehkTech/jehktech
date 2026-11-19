@@ -1,0 +1,15 @@
+:root {
+  --bg: #12121a;
+  --surface: #1b1a25;
+  --ink: #f7f0e8;
+  --muted: #9c96a7;
+  --paper: #f1ece4;
+  --accent: #ff765e;
+  --accent-2: #a173ff;
+  --lime: #c8f09e;
+  --cyan: #a173ff;
+  --line: #f7f0e81f;
+  --body: var(--font-geist-sans), sans-serif;
+  --mono: var(--font-geist-mono), monospace;
+  --display: var(--font-geist-sans), sans-serif;
+}
